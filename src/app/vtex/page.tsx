@@ -65,7 +65,7 @@ export default function Page() {
               O grupo dos produtos está na faixa <strong>5.00.00.00</strong>
             </li>
             <li>
-              O produto deve estar no local 188
+              O produto deve estar no local <strong>188</strong>
             </li>
           </ul>
         </div>
