@@ -25,7 +25,7 @@ async function enviarInformacaoProduto(codprod: string, endpoint: any) {
 export default function Page() {
   const [value, setValue] = useState('');
   return (
-    <div className="flex flex-col gap-10 items-center mt-10">
+    <div className="flex flex-col gap-10 items-center mt-10 mb-10">
       <h1 className="underline font-bold text-2xl">
         Integrador Sankhya \ VTEX
       </h1>
