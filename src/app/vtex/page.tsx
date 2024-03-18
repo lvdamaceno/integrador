@@ -45,11 +45,11 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-col gap-4 items-center">
-        <div className="w-3/4 mb-6">
-          <h2 className="underline font-bold text-1xl">
+        <div className="w-3/4 mb-6 leading-8">
+          <h2 className="underline font-bold text-1xl ">
             Antes de atualizar/cadastrar produtos certifique-se que:
           </h2>
-          <ul className="list-decimal">
+          <ul className="list-decimal ">
             <li>
               O grupo de produtos está informado no campo <strong>Menu</strong>{' '}
               na aba <strong>E-commerce</strong> do cadastro de produtos no
