@@ -19,6 +19,7 @@ async function enviarInformacaoProduto(codprod: string, endpoint: any) {
   } catch (error) {
     console.error('Erro ao buscar dados:', error);
   }
+  window.location.href = '/vtex';
 }
 
 export default function Page() {
