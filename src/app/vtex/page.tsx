@@ -1,6 +1,12 @@
 'use client';
 
-import { Money, Receipt, Warehouse } from '@phosphor-icons/react';
+import {
+  CheckCircle,
+  Money,
+  PlusCircle,
+  Receipt,
+  Warehouse,
+} from '@phosphor-icons/react';
 import { useState } from 'react';
 
 const baseUrl = process.env.NEXT_PUBLIC_URL_BASE;
@@ -77,8 +83,9 @@ export default function Page() {
               onClick={(event) => {
                 enviarInformacaoProduto(value, atualizaEndpoint);
               }}
-              className="p-1 border border-solid bg-zinc-100 rounded-lg w-full hover:bg-zinc-300"
+              className="p-1 border border-solid bg-zinc-100 rounded-lg w-full hover:bg-zinc-300 flex gap-2 justify-center"
             >
+              <CheckCircle size={24} />
               Atualizar
             </button>
           </div>
@@ -98,8 +105,9 @@ export default function Page() {
               onClick={(event) => {
                 enviarInformacaoProduto(value, cadastraEnpoint);
               }}
-              className="p-1 border border-solid bg-zinc-100 rounded-lg w-full hover:bg-zinc-300"
+              className="p-1 border border-solid bg-zinc-100 rounded-lg w-full hover:bg-zinc-300 flex gap-2 justify-center"
             >
+              <PlusCircle size={24} />
               Cadastrar
             </button>
           </div>
