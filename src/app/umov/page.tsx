@@ -1,6 +1,6 @@
 'use client';
 
-import { MinusCircle, PlusCircle } from '@phosphor-icons/react';
+import { PlusCircle } from '@phosphor-icons/react';
 import { useState } from 'react';
 
 const baseUrl = process.env.NEXT_PUBLIC_URL_BASE;
